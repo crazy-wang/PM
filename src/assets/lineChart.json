@@ -1,0 +1,43 @@
+{
+  "data":
+  {
+    "date_list":["2011年","2012年","2013年","2014年","2015年","2016年","2017年"],"index_data_list":[
+    {
+      "value_list":[20,23,21,24,14,20,24],"index_id":10,"index_level":2,"index_name":"操控性感受"
+    }
+  ,
+    {
+      "value_list":[20,23,21,24,14,20,24],"index_id":11,"index_level":2,"index_name":"变速器/变速箱"
+    }
+  ,
+    {
+      "value_list":[20,23,21,24,14,20,24],"index_id":12,"index_level":2,"index_name":"转向系统"
+    }
+  ,
+    {
+      "value_list":[20,23,21,24,14,20,24],"index_id":13,"index_level":2,"index_name":"制动"
+    }
+  ,
+    {
+      "value_list":[20,23,21,24,14,20,24],"index_id":14,"index_level":2,"index_name":"外观"
+    }
+  ,
+    {
+      "value_list":[20,23,21,24,14,20,24],"index_id":15,"index_level":2,"index_name":"离合器"
+    }
+  ,
+    {
+      "value_list":[20,23,21,24,14,20,24],"index_id":16,"index_level":2,"index_name":"驱动"
+    }
+  ,
+    {
+      "value_list":[20,23,21,24,14,20,24],"index_id":17,"index_level":2,"index_name":"踏板"
+    }
+  ,
+    {
+      "value_list":[20,23,21,24,14,20,24],"index_id":18,"index_level":2,"index_name":"通过性"
+    }
+  ],"parent_index_name":"操控性","sample_size_all":25356,"sample_size_list":[6559,5852,6070,6284,6991,6779,5463]
+  }
+,"msg":"Success","status":1
+}

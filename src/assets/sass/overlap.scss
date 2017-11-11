@@ -1,0 +1,72 @@
+@charset "utf-8";
+// 样式覆盖文件
+//左侧导航栏样式覆盖
+#sidebar{
+  .el-submenu.is-opened>.el-submenu__title .el-submenu__icon-arrow{-ms-transform:rotate(-90deg);transform:rotateZ(-90deg)}
+  background: #272930;
+  .el-menu--dark{
+    background: #272930;
+    .el-submenu{
+      background: #272930;
+      .el-submenu__title{
+        font-size: 18px;
+        color: #fff;
+      }
+      .el-menu{
+        background: #272930;
+        .el-submenu{
+          .el-submenu__title{
+            font-size: 16px;
+            color: #999;
+            padding-left: 30px !important;
+          }
+          .el-menu{
+            .el-menu-item{
+              font-size:14px;
+              color: #999;
+              padding-left: 50px !important;
+            }
+            .is-active{
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+//用户好评与痛点趋势默认组件样式覆盖
+.userResearch{
+  .el-input {
+    .el-input__inner{
+    }
+    .el-input__inner:focus {
+      outline: 0;
+      border-color: #bfcbd9;
+    }
+  }
+}
+.el-select-dropdown{
+  .el-scrollbar{
+    .el-select-dropdown__item.selected.hover {
+      background-color: #e4e8f1;
+      span{
+        color: #666;
+      }
+    }
+    .el-select-dropdown__item.selected {
+      color: #666;
+      background-color: #fff;
+    }
+  }
+}
+//1-3个字体距离
+.oneFontMargin{
+  margin-left: 12px;
+}
+.twoFontMargin{
+  margin-left: 24px;
+}
+.threeFontMargin{
+  margin-left: 36px;
+}

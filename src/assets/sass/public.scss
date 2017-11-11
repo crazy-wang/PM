@@ -1,0 +1,8 @@
+@charset "utf-8";
+// 公共样式库
+.clearfix {*zoom: 1;}
+.clearfix:before,
+.clearfix:after {display: table;line-height: 0;content: "";}
+.clearfix:after {clear: both;}
+.f-l{float: left;}
+.f-r{float: right;}
